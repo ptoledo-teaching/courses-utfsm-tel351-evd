@@ -1,0 +1,9 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Principal": {"AWS": "arn:aws:iam::381491955329:role/TEL351-EVD-Generator"},
+    "Action": "sts:AssumeRole",
+    "Condition": {"StringEquals": {"sts:ExternalId": "REEMPLAZAR_RUT"}}
+  }]
+}
